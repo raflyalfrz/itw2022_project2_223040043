@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Grocery Store</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+
+    <!-- ....................Link css........................  -->
+    <link
+      rel="stylesheet"
+      href="../itw2022_project2_223040043/css/stylesheet.css"
+    />
+
+    <!-- .....................Link font....................... -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ......................Link Icon...................... -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!--........................ Navbar....................... -->
+    <nav class="navbar navbar-expand-lg bg-white fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><i class="fa-sharp fa-solid fa-store pe-2"></i>Grocery Store</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav m-auto my-2 my-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#beranda" onclick="closeDropdownMenu()"
+                >Beranda</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#trending" onclick="closeDropdownMenu()"
+                >Trending</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#toko" onclick="closeDropdownMenu()"
+                >Toko</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#produk" onclick="closeDropdownMenu()"
+                >Produk</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#kontak" onclick="closeDropdownMenu()"
+                >Kontak</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="px-2 search"
+              type="search"
+              placeholder="Cari"
+              aria-label="Search"
+            />
+            <button class="btn0" type="submit">Cari</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ...........................HOME........................... -->
+    <section class="main py-5" id="beranda">
+      <div class="container py-5">
+        <div class="row py-5">
+          <div class="pt-5 text-center">
+            <h1 class="pt-5">Selamat Datang</h1>
+            <h1>Ditoko Kami</h1>
+            <button class="btn1 mt-3">
+              <a class="nav-link" href="#produk">Lihat Produk</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- .......................Trending............................ -->
+    <section class="Product" id="trending">
+      <div class="container py-5">
+        <div class="row py-5">
+          <div class="col-lg-5 m-auto text-center">
+            <h1>Apa yang Trending?</h1>
+            <h6 style="color: red">ini adalah barang yang sedang trending</h6>
+          </div>
+        </div>
+        <div class="row">
+          <!-- ................Produk trending 1............... -->
+          <div class="col-lg-3 col-6 text-center">
+            <div class="card border-0 bg-light mb-2">
+              <div class="card-body">
+                <img
+                  src="../itw2022_project2_223040043/img/Hiu.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
+            <h6>LATO LATO</h6>
+            <p>Rp. 20.000</p>
+          </div>
+          <!-- ................Produk trending 2............... -->
+          <div class="col-lg-3 col-6 text-center">
+            <div class="card border-0 bg-light mb-2">
+              <div class="card-body">
+                <img
+                  src="../itw2022_project2_223040043/img/Hiu.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
+            <h6>LATO LATO</h6>
+            <p>Rp. 20.000</p>
+          </div>
+          <!-- ................Produk trending 3............... -->
+          <div class="col-lg-3 col col-6 text-center">
+            <div class="card border-0 bg-light mb-2">
+              <div class="card-body">
+                <img
+                  src="../itw2022_project2_223040043/img/Hiu.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
+            <h6>LATO LATO</h6>
+            <p>Rp. 20.000</p>
+          </div>
+          <!-- ................Produk trending 4............... -->
+          <div class="col-lg-3 col-6 text-center">
+            <div class="card border-0 bg-light mb-2">
+              <div class="card-body">
+                <img
+                  src="../itw2022_project2_223040043/img/Hiu.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
+            <h6>LATO LATO</h6>
+            <p>Rp. 20.000</p>
+          </div>
+        </div>
+        <!-- .................................Bagian yang akan tampil ketika tombol di klik........ -->
+        <div class="row" id="semua-produk" style="display: none">
+          <!-- ................Produk trending 5.............. -->
+          <div class="col-lg-3 col-6 text-center">
+            <div class="card border-0 bg-light mb-2">
+              <div class="card-body">
+                <img
+                  src="../itw2022_project2_223040043/img/Hiu.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
+            <h6>LATO LATO</h6>
+            <p>Rp. 20.000</p>
+          </div>
+          <!-- ................Produk trending 6............. -->
+          <div class="col-lg-3 col-6 text-center">
+            <div class="card border-0 bg-light mb-2">
+              <div class="card-body">
+                <img
+                  src="../itw2022_project2_223040043/img/Hiu.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
+            <h6>LATO LATO</h6>
+            <p>Rp. 20.000</p>
+          </div>
+          <!-- ................Produk trending 7............ -->
+          <div class="col-lg-3 col-6 text-center">
+            <div class="card border-0 bg-light mb-2">
+              <div class="card-body">
+                <img
+                  src="../itw2022_project2_223040043/img/Hiu.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
+            <h6>LATO LATO</h6>
+            <p>Rp. 20.000</p>
+          </div>
+          <!-- ................Produk trending 8.............. -->
+          <div class="col-lg-3 col-6 text-center">
+            <div class="card border-0 bg-light mb-2">
+              <div class="card-body">
+                <img
+                  src="../itw2022_project2_223040043/img/Hiu.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
+            <h6>LATO LATO</h6>
+            <p>Rp. 20.000</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 text-center m-auto">
+            <button class="btn1" id="lihat-lebih-banyak">
+              Lihat lebih banyak
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- .......................Toko................................ -->
+    <section class="about" id="toko">
+      <div class="container py-5">
+        <div class="row py-5">
+          <div class="col-lg-8 m-auto text-center">
+            <h1>Grocery Store</h1>
+            <h6 style="color: red">toko yang menjual berbagai macam barang</h6>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-6 text-center">
+            <img
+              src="../itw2022_project2_223040043/img/bahan makanan.png"
+              class="mb-3"
+              alt=""
+            />
+            <h5>Bahan makanan</h5>
+            <p style="text-align: start">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dicta
+              quidem laudantium placeat voluptatibus et harum repellat sint
+              quisquam veritatis, nemo doloremque accusantium unde est dolores
+              praesentium? Dicta, voluptate iure?
+            </p>
+          </div>
+          <div class="col-lg-4 col-6 text-center">
+            <img
+              src="../itw2022_project2_223040043/img/cemilan.png"
+              class="mb-3"
+              alt=""
+            />
+            <h5>Cemilan</h5>
+            <p style="text-align: start">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dicta
+              quidem laudantium placeat voluptatibus et harum repellat sint
+              quisquam veritatis, nemo doloremque accusantium unde est dolores
+              praesentium? Dicta, voluptate iure?
+            </p>
+          </div>
+          <div class="col-lg-4 col-6 text-center mx-auto">
+            <img
+              src="../itw2022_project2_223040043/img/permainan.png"
+              class="mb-3"
+              alt=""
+            />
+            <h5>Permainan</h5>
+            <p style="text-align: start">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dicta
+              quidem laudantium placeat voluptatibus et harum repellat sint
+              quisquam veritatis, nemo doloremque accusantium unde est dolores
+              praesentium? Dicta, voluptate iure?
+            </p>
+          </div>
+          <div class="row py-5" id="lihat-produk" style="display: none">
+            <div class="col-lg-4 col-6 text-center">
+              <img
+                src="../itw2022_project2_223040043/img/Perlengkapan Rumah.png"
+                class="mb-3"
+                alt=""
+              />
+              <h5>Perlengkapan Rumah</h5>
+              <p style="text-align: start">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+                dicta quidem laudantium placeat voluptatibus et harum repellat
+                sint quisquam veritatis, nemo doloremque accusantium unde est
+                dolores praesentium? Dicta, voluptate iure?
+              </p>
+            </div>
+            <div class="col-lg-4 col-6 text-center">
+              <img
+                src="../itw2022_project2_223040043/img/Minuman.png"
+                class="mb-3"
+                alt=""
+              />
+              <h5>Minuman</h5>
+              <p style="text-align: start">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+                dicta quidem laudantium placeat voluptatibus et harum repellat
+                sint quisquam veritatis, nemo doloremque accusantium unde est
+                dolores praesentium? Dicta, voluptate iure?
+              </p>
+            </div>
+            <div class="col-lg-4 col-6 text-center">
+              <img
+                src="../itw2022_project2_223040043/img/Kesehatan.png"
+                class="mb-3"
+                alt=""
+              />
+              <h5>Kesehatan</h5>
+              <p style="text-align: start">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+                dicta quidem laudantium placeat voluptatibus et harum repellat
+                sint quisquam veritatis, nemo doloremque accusantium unde est
+                dolores praesentium? Dicta, voluptate iure?
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- .................................Bagian yang akan tampil ketika tombol di klik........ -->
+        <div class="row">
+          <div class="col-lg-6 text-center m-auto">
+            <button class="btn1" id="lihat-klik-tombol">
+              Lihat lebih banyak
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ............................Produk........................ -->
+    <section class="shop py-5" id="produk">
+      <div class="container">
+        <div class="row py-5">
+          <div class="col-lg-8 m-auto text-center">
+            <h1>Jelajahi Toko Kami</h1>
+            <h6 style="color: red">
+              pilih produk yang kamu mau dari toko kami
+            </h6>
+          </div>
+        </div>
+        <div class="row">
+          <!-- ................Produk 1............... -->
+          <div class="col-lg-3 col-6 text-center">
+            <div class="card border-0 bg-light mb-2">
+              <div class="card-body">
+                <img
+                  src="../itw2022_project2_223040043/img/Hiu.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
+            <h6>LATO LATO</h6>
+            <p>Rp. 20.000</p>
+          </div>
+          <!-- ................Produk 2............... -->
+          <div class="col-lg-3 col-6 text-center">
+            <div class="card border-0 bg-light mb-2">
+              <div class="card-body">
+                <img
+                  src="../itw2022_project2_223040043/img/Hiu.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
+            <h6>LATO LATO</h6>
+            <p>Rp. 20.000</p>
+          </div>
+          <!-- ................Produk 3............... -->
+          <div class="col-lg-3 col-6 text-center">
+            <div class="card border-0 bg-light mb-2">
+              <div class="card-body">
+                <img
+                  src="../itw2022_project2_223040043/img/Hiu.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
+            <h6>LATO LATO</h6>
+            <p>Rp. 20.000</p>
+          </div>
+          <!-- ................Produk 4............... -->
+          <div class="col-lg-3 col-6 text-center">
+            <div class="card border-0 bg-light mb-2">
+              <div class="card-body">
+                <img
+                  src="../itw2022_project2_223040043/img/Hiu.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
+            <h6>LATO LATO</h6>
+            <p>Rp. 20.000</p>
+          </div>
+        </div>
+        <div class="row">
+          <!-- ................Produk 5............... -->
+          <div class="col-lg-3 col-6 text-center">
+            <div class="card border-0 bg-light mb-2">
+              <div class="card-body">
+                <img
+                  src="../itw2022_project2_223040043/img/Hiu.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
+            <h6>LATO LATO</h6>
+            <p>Rp. 20.000</p>
+          </div>
+          <!-- ................Produk 6............... -->
+          <div class="col-lg-3 col-6 text-center">
+            <div class="card border-0 bg-light mb-2">
+              <div class="card-body">
+                <img
+                  src="../itw2022_project2_223040043/img/Hiu.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
+            <h6>LATO LATO</h6>
+            <p>Rp. 20.000</p>
+          </div>
+          <!-- ................Produk 7............... -->
+          <div class="col-lg-3 col-6 text-center">
+            <div class="card border-0 bg-light mb-2">
+              <div class="card-body">
+                <img
+                  src="../itw2022_project2_223040043/img/Hiu.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
+            <h6>LATO LATO</h6>
+            <p>Rp. 20.000</p>
+          </div>
+          <!-- ................Produk 8............... -->
+          <div class="col-lg-3 col-6 text-center">
+            <div class="card border-0 bg-light mb-2">
+              <div class="card-body">
+                <img
+                  src="../itw2022_project2_223040043/img/Hiu.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
+            <h6>LATO LATO</h6>
+            <p>Rp. 20.000</p>
+          </div>
+        </div>
+        <!-- .................................Bagian yang akan tampil ketika tombol di klik........ -->
+        <div class="row" id="more-products" style="display: none">
+          <!-- ................Produk 9............... -->
+          <div class="col-lg-3 col-6 text-center">
+            <div class="card border-0 bg-light mb-2">
+              <div class="card-body">
+                <img
+                  src="../itw2022_project2_223040043/img/Hiu.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
+            <h6>LATO LATO</h6>
+            <p>Rp. 20.000</p>
+          </div>
+          <!-- ................Produk 10............... -->
+          <div class="col-lg-3 col-6 text-center">
+            <div class="card border-0 bg-light mb-2">
+              <div class="card-body">
+                <img
+                  src="../itw2022_project2_223040043/img/Hiu.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
+            <h6>LATO LATO</h6>
+            <p>Rp. 20.000</p>
+          </div>
+          <!-- ................Produk 11.............. -->
+          <div class="col-lg-3 col-6 text-center">
+            <div class="card border-0 bg-light mb-2">
+              <div class="card-body">
+                <img
+                  src="../itw2022_project2_223040043/img/Hiu.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
+            <h6>LATO LATO</h6>
+            <p>Rp. 20.000</p>
+          </div>
+          <!-- ................Produk 12.............. -->
+          <div class="col-lg-3 col-6 text-center">
+            <div class="card border-0 bg-light mb-2">
+              <div class="card-body">
+                <img
+                  src="../itw2022_project2_223040043/img/Hiu.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
+            <h6>LATO LATO</h6>
+            <p>Rp. 20.000</p>
+          </div>
+          <!-- ................Produk 13.............. -->
+          <div class="col-lg-3 col-6 text-center">
+            <div class="card border-0 bg-light mb-2">
+              <div class="card-body">
+                <img
+                  src="../itw2022_project2_223040043/img/Hiu.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
+            <h6>LATO LATO</h6>
+            <p>Rp. 20.000</p>
+          </div>
+          <!-- ................Produk 14.............. -->
+          <div class="col-lg-3 col-6 text-center">
+            <div class="card border-0 bg-light mb-2">
+              <div class="card-body">
+                <img
+                  src="../itw2022_project2_223040043/img/Hiu.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
+            <h6>LATO LATO</h6>
+            <p>Rp. 20.000</p>
+          </div>
+          <!-- ................Produk 15.............. -->
+          <div class="col-lg-3 col-6 text-center">
+            <div class="card border-0 bg-light mb-2">
+              <div class="card-body">
+                <img
+                  src="../itw2022_project2_223040043/img/Hiu.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
+            <h6>LATO LATO</h6>
+            <p>Rp. 20.000</p>
+          </div>
+          <!-- ................Produk 16.............. -->
+          <div class="col-lg-3 col-6 text-center">
+            <div class="card border-0 bg-light mb-2">
+              <div class="card-body">
+                <img
+                  src="../itw2022_project2_223040043/img/Hiu.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
+            <h6>LATO LATO</h6>
+            <p>Rp. 20.000</p>
+          </div>
+          <!-- ................Produk 17.............. -->
+          <div class="col-lg-3 col-6 text-center">
+            <div class="card border-0 bg-light mb-2">
+              <div class="card-body">
+                <img
+                  src="../itw2022_project2_223040043/img/Hiu.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
+            <h6>LATO LATO</h6>
+            <p>Rp. 20.000</p>
+          </div>
+          <!-- ................Produk 18.............. -->
+          <div class="col-lg-3 col-6 text-center">
+            <div class="card border-0 bg-light mb-2">
+              <div class="card-body">
+                <img
+                  src="../itw2022_project2_223040043/img/Hiu.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
+            <h6>LATO LATO</h6>
+            <p>Rp. 20.000</p>
+          </div>
+          <!-- ................Produk 19.............. -->
+          <div class="col-lg-3 col-6 text-center">
+            <div class="card border-0 bg-light mb-2">
+              <div class="card-body">
+                <img
+                  src="../itw2022_project2_223040043/img/Hiu.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
+            <h6>LATO LATO</h6>
+            <p>Rp. 20.000</p>
+          </div>
+          <!-- ................Produk 20.............. -->
+          <div class="col-lg-3 col-6 text-center">
+            <div class="card border-0 bg-light mb-2">
+              <div class="card-body">
+                <img
+                  src="../itw2022_project2_223040043/img/Hiu.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
+            <h6>LATO LATO</h6>
+            <p>Rp. 20.000</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 text-center m-auto">
+            <button class="btn1" id="show-more-button">
+              Lihat lebih banyak
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="apple py-5">
+      <div class="container text-white py-3">
+        <div class="row justify-content-end">
+          <div class="col-lg-7 text-end">
+            <h1 class="font-weight-bold py-3">
+              Penawaran Spesial Awal Tahun 2023
+            </h1>
+            <h6>hjvsggdjsvgsfd</h6>
+            <button class="btn1 mt-3">Dapatkan segera</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- .....................Contact........................... -->
+    <section class="contact py-5" id="kontak">
+      <div class="container">
+        <div class="row py-5">
+          <div class="col-lg-5 m-auto text-center">
+            <h1>Kontak kami</h1>
+            <h6 style="color: red">hubungi kami jika anda berminat</h6>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-4 d-none d-sm-block">
+            <img
+              src="../itw2022_project2_223040043/img/cloud-data-processing.png"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+          <div class="col-lg-5 col-9">
+            <div class="row py-5-0">
+              <div class="col-lg-11 py-3">
+                <input
+                  type="text"
+                  class="form-control bg-light"
+                  placeholder="Your name"
+                  required
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-11 py-3">
+                <input
+                  type="email"
+                  class="form-control bg-light"
+                  placeholder="E-mail"
+                  required
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-11 py-3">
+                <textarea
+                  name=""
+                  class="form-control bg-light"
+                  id=""
+                  cols="30"
+                  rows="10"
+                  placeholder="Your message"
+                  required
+                ></textarea>
+              </div>
+            </div>
+            <button class="btn1">Submit</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- .....................Link script JS....................... -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="../itw2022_project2_223040043/js/main.js"></script>
+  </body>
+</html>
