@@ -8,7 +8,8 @@
 .navbar-brand {
   font-size: 2rem;
   color: black;
-  font-family: "Leckerli One", cursive;
+  font-family: "Caesar Dressing", cursive;
+  font-weight: bold;
 }
 .navbar-brand:hover {
   color: black;
@@ -22,7 +23,7 @@
   font-weight: 600;
 }
 .nav-item a:hover {
-  color: salmon;
+  color: #673de6;
 }
 
 /* .....................Tombol pencarian................ */
@@ -32,14 +33,14 @@
   border-radius: 60px;
   outline: none;
   margin-right: -35px;
-  border: 2px solid rgb(248, 26, 92);
+  border: 2px solid #673de6;
 }
 .btn0 {
   height: 40px;
   width: 40%;
   outline: none;
   border: none;
-  background: rgb(248, 26, 92);
+  background: #673de6;
   color: white;
   border-radius: 60px;
   font-weight: 700;
@@ -64,56 +65,56 @@
   width: 230px;
   border: none;
   outline: none;
-  background-color: rgb(248, 26, 92);
+  background-color: #673de6;
   color: white;
   font-weight: 700;
   border-radius: 60px;
   transition: all 0.3s;
 }
 .btn1:hover {
-  background-color: rgb(155, 0, 0);
+  background-color: #421cb7;
 }
 .btn2 {
   height: 45px;
   width: 230px;
   border: none;
   outline: none;
-  background-color: rgb(248, 26, 92);
+  background-color: #673de6;
   color: white;
   font-weight: 700;
   border-radius: 60px;
   transition: all 0.3s;
 }
 .btn2:hover {
-  background-color: rgb(155, 0, 0);
+  background-color: #421cb7;
 }
 .btn3 {
   height: 45px;
   width: 230px;
   border: none;
   outline: none;
-  background-color: rgb(248, 26, 92);
+  background-color: #673de6;
   color: white;
   font-weight: 700;
   border-radius: 60px;
   transition: all 0.3s;
 }
 .btn3:hover {
-  background-color: rgb(155, 0, 0);
+  background-color: #421cb7;
 }
 .btn4 {
   height: 45px;
   width: 30%;
   border: none;
   outline: none;
-  background-color: rgb(248, 26, 92);
+  background-color: #673de6;
   color: white;
   font-weight: 700;
   border-radius: 20px;
   transition: all 0.3s;
 }
 .btn4:hover {
-  background-color: rgb(155, 0, 0);
+  background-color: #421cb7;
 }
 h1 {
   font-weight: 700;
@@ -179,7 +180,7 @@ h5 {
     width: 150px;
   }
   .btn4 {
-    width: 50%;
+    width: 155px;
   }
   .apple h1 {
     font-size: 40px;
