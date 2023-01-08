@@ -73,6 +73,48 @@
 .btn1:hover {
   background-color: rgb(155, 0, 0);
 }
+.btn2 {
+  height: 45px;
+  width: 230px;
+  border: none;
+  outline: none;
+  background-color: rgb(248, 26, 92);
+  color: white;
+  font-weight: 700;
+  border-radius: 60px;
+  transition: all 0.3s;
+}
+.btn2:hover {
+  background-color: rgb(155, 0, 0);
+}
+.btn3 {
+  height: 45px;
+  width: 230px;
+  border: none;
+  outline: none;
+  background-color: rgb(248, 26, 92);
+  color: white;
+  font-weight: 700;
+  border-radius: 60px;
+  transition: all 0.3s;
+}
+.btn3:hover {
+  background-color: rgb(155, 0, 0);
+}
+.btn4 {
+  height: 45px;
+  width: 30%;
+  border: none;
+  outline: none;
+  background-color: rgb(248, 26, 92);
+  color: white;
+  font-weight: 700;
+  border-radius: 20px;
+  transition: all 0.3s;
+}
+.btn4:hover {
+  background-color: rgb(155, 0, 0);
+}
 h1 {
   font-weight: 700;
 }
@@ -134,7 +176,10 @@ h5 {
     font-size: 3rem;
   }
   .btn1 {
-    width: 180px;
+    width: 150px;
+  }
+  .btn4 {
+    width: 35%;
   }
   .apple h1 {
     font-size: 40px;

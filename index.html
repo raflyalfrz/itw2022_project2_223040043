@@ -238,7 +238,7 @@
         <!-- ................tombol............. -->
         <div class="row">
           <div class="col-lg-6 text-center m-auto">
-            <button class="btn1" id="lihat-lebih-banyak">
+            <button class="btn2" id="lihat-lebih-banyak">
               Lihat lebih banyak
             </button>
           </div>
@@ -352,7 +352,7 @@
         <!-- ................tombol............. -->
         <div class="row py-3">
           <div class="col-lg-6 text-center m-auto">
-            <button class="btn1" id="lihat-klik-tombol">
+            <button class="btn2" id="lihat-klik-tombol">
               Lihat lebih banyak
             </button>
           </div>
@@ -661,7 +661,7 @@
         <!-- ................tombol............. -->
         <div class="row py-3">
           <div class="col-lg-6 text-center m-auto">
-            <button class="btn1" id="show-more-button">
+            <button class="btn2" id="show-more-button">
               Lihat lebih banyak
             </button>
           </div>
@@ -678,7 +678,7 @@
             </h1>
             <!-- ................tombol............. -->
             <h6>Potongan harga hingga 45%</h6>
-            <button class="btn1 mt-4">Dapatkan segera</button>
+            <button class="btn3 mt-4">Dapatkan segera</button>
           </div>
         </div>
       </div>
@@ -704,40 +704,66 @@
             />
           </div>
           <div class="col-lg-5 col-9">
-            <div class="row py-5-0">
-              <div class="col-lg-11 py-3">
-                <input
-                  type="text"
-                  class="form-control bg-light"
-                  placeholder="Your name"
-                  required
-                />
-              </div>
+            <div
+              class="alert alert-success alert-dismissible fade show col-lg-11 d-none my-alert"
+              role="alert"
+            >
+              <strong>Terimakasih!</strong> Pesan anda sudah kami terima.
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="alert"
+                aria-label="Close"
+              ></button>
             </div>
-            <div class="row">
-              <div class="col-lg-11 py-3">
-                <input
-                  type="email"
-                  class="form-control bg-light"
-                  placeholder="E-mail"
-                  required
-                />
+            <form name="kontak-form-company">
+              <div class="row py-5-0">
+                <div class="col-lg-11 py-3">
+                  <input
+                    type="text"
+                    class="form-control bg-light"
+                    placeholder="Your name"
+                    name="nama"
+                  />
+                </div>
               </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-11 py-3">
-                <textarea
-                  name=""
-                  class="form-control bg-light"
-                  id=""
-                  cols="30"
-                  rows="10"
-                  placeholder="Your message"
-                  required
-                ></textarea>
+              <div class="row">
+                <div class="col-lg-11 py-3">
+                  <input
+                    type="email"
+                    class="form-control bg-light"
+                    placeholder="E-mail"
+                    name="email"
+                  />
+                </div>
               </div>
-            </div>
-            <button class="btn1">Submit</button>
+              <div class="row">
+                <div class="col-lg-11 py-3">
+                  <textarea
+                    class="form-control bg-light"
+                    id="pesan"
+                    rows="10"
+                    placeholder="Your message"
+                    name="pesan"
+                  ></textarea>
+                </div>
+              </div>
+              <button type="submit" class="btn4 btn-primary btn-kirim">
+                Kirim
+              </button>
+              <button
+                class="btn4 btn-primary btn-loading d-none"
+                type="button"
+                disabled
+              >
+                <span
+                  class="spinner-border spinner-border-sm"
+                  role="status"
+                  aria-hidden="true"
+                ></span>
+                Loading...
+              </button>
+            </form>
           </div>
         </div>
       </div>
