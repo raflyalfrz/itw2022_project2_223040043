@@ -24,7 +24,7 @@ document
 // Dapatkan semua elemen nav-link
 var navLinks = document.querySelectorAll(".nav-link");
 
-// Tambahkan event handler pada setiap elemen nav-link
+// Tambahkan event handler pada setiap elemen nav-link,......................
 navLinks.forEach(function (navLink) {
   navLink.addEventListener("click", function () {
     // Dapatkan elemen navbar-collapse
@@ -36,6 +36,7 @@ navLinks.forEach(function (navLink) {
   });
 });
 
+// .....................ketika tombol di klik maka tombol itu akan menghilang.................
 const tombol = document.querySelector("#lihat-klik-tombol");
 const barisTersembunyi = document.querySelector("#lihat-produk");
 const barisInduk = barisTersembunyi.parentElement;
